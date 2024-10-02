@@ -31,6 +31,13 @@ sequelizeUsers
       .sync({ alter: true })
       .then(() => console.log("Database is synchronised for users db"));
     console.log("Connection established for users db");
+
+    // Drop users table
+    // await sequelizeUsers
+    //   .getQueryInterface()
+    //   .dropTable("users")
+    //   .then(() => console.log("Users table deleted successfully"))
+    //   .catch((err) => console.error("Failed to delete users table: ", err));
   })
   .catch((err) => console.error("Unable to connect to users database: ", err));
 
