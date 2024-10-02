@@ -1,0 +1,62 @@
+.card {
+  background-color: #ffffff; /* Card background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(57, 53, 53, 0.543); /* Subtle shadow */
+  padding: 20px; /* Inner spacing */
+  margin: 20px; /* Outer spacing */
+  transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  color: rgba(155, 152, 149, 0.762);
+}
+
+.buttons {
+  button {
+    margin-right: 1rem;
+  }
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  input {
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: 4px 2px;
+  }
+}
+
+button {
+  font-size: 1.2rem;
+  background-color: rgb(46, 31, 187);
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding: 4px 10px;
+}
+
+button:hover {
+  background-color: rgb(97, 97, 98);
+  transition: 2s background-color;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 1em 2em;
+  input {
+    border-radius: 10px;
+    font-size: 2em;
+  }
+  textarea {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 80vh;
+    resize: none;
+    font-size: 1.4rem;
+  }
+}
